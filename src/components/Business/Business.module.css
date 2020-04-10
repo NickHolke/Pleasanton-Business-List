@@ -1,8 +1,9 @@
 .wrapper {
-  border: 1px solid black;
+  background: #d9dfe9;
+  border: 8px solid white;
   padding: 10px;
-  width: 400px;
   margin: 10px;
+  width: 400px;
   font-size: 22px;
   position: relative;
 }
@@ -21,6 +22,7 @@ h2 {
   height: 30px;
   width: 30px;  
   margin-right: 10px;
+  color: #524c4c;
 }
 
 .row {
