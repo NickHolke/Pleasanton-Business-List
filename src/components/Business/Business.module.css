@@ -56,7 +56,7 @@ h2 {
   margin-top: 10px;
 }
 
-.plus, .minus {
+/* .plus, .minus {
   position: absolute;
   height: 28px;
   width: 28px;
@@ -68,6 +68,11 @@ h2 {
   right: 10px;
   bottom: 10px;
   opacity: 1;
+} */
+
+.plus {
+  height: 28px;
+  width: 28px;
 }
 
 .minus {
@@ -87,6 +92,11 @@ h2 {
 .bold {
   font-size: 18px;
   font-weight: bold;
+}
+
+.buttonContainer {
+  height: 100%;
+  text-align: right;
 }
 
 
