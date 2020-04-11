@@ -35,14 +35,29 @@ time, mark, audio, video {
 
 body {
   background: #e5dddd;
+  font-family: 'Alegreya', serif;
 }
 
 .wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  font-family: 'B612', sans-serif;
   font-family: 'Alegreya', serif;
   line-height: 1;
   Color: #524c4c;
+}
+
+.topSection {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.title {
+  font-size: 55px;
+  text-align: center;
+}
+
+.optionTitle {
+  font-size: 24px;
 }

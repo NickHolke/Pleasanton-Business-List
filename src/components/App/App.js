@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import { data, types, statusOptions } from './Pleasanton_Business_List';
+import { data, types, statusOptions, } from './Pleasanton_Business_List';
 import Business from '../Business/Business';
 import Search from '../Search/Search';
 import Dropdown from '../Dropdown/Dropdown';
-import { wrapper } from './App.module.css';
+import { wrapper, topSection, title, optionTitle } from './App.module.css';
 
 function App() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -28,10 +28,13 @@ function App() {
 
   return (
     <>
-      <Search setSearchTerm={setSearchTerm}/>
-      <Dropdown options={types} setType={setType} />
-      <Dropdown options={statusOptions} setType={setStatus} />
-      <div className={wrapper}>
+      <h1 className={title}>Pleasanton Business List</h1>
+      <div className={topSection}>
+        <Search setSearchTerm={setSearchTerm}/>
+        <span className={optionTitle}>Type:</span><Dropdown options={types} setType={setType} />
+        <span className={optionTitle}>Status:</span><Dropdown options={statusOptions} setType={setStatus} />
+        </div>
+        <div className={wrapper}>
       {data.map((info) => {
         if (searchChecker(searchTerm, info.Name) && typeChecker(type, info.Type) && statusChecker(status, info.Status)) {
           return <Business info={info}/>

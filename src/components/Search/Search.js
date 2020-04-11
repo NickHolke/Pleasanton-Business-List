@@ -1,7 +1,8 @@
 import React from 'react';
+import { wrapper } from './Search.module.css';
 
 const Search = ({setSearchTerm}) => (
-    <input 
+    <input className={wrapper}
       placeholder="Search by name here" 
       onChange={(e)=> setSearchTerm(e.target.value)} 
     />
