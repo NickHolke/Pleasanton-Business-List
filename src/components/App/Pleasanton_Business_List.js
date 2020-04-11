@@ -1,7 +1,7 @@
 let data = [
  {
    "Name": "The Coop",
-   "Type": "Indoor play and party center ",
+   "Type": "Local services",
    "Address": "3059 D Hopyard road ",
    "Status": "Closed until further notice",
    "Notes": "",
@@ -41,7 +41,7 @@ let data = [
  },
  {
    "Name": "Pleasanton Ridge Dental Group",
-   "Type": "Dental Office",
+   "Type": "Healthcare",
    "Address": "6766 Bernal Ave. Suite 560",
    "Status": "Open",
    "Notes": "Open Mon-Thurs for \"Emergencies & Essential needs (pain/swelling & cracked teeth)\" from 9AM-4PM.",
@@ -51,7 +51,7 @@ let data = [
  },
  {
    "Name": "Sunol Creek Memory Care",
-   "Type": "Residential Memory Care Community",
+   "Type": "Local services",
    "Address": "5980 Sunol Blvd  Pleasanton, CA. 94566",
    "Status": "Open",
    "Notes": "Virtual Tours Available: Contact: Susan Hughes ",
@@ -61,7 +61,7 @@ let data = [
  },
  {
    "Name": "Chromagraphics ",
-   "Type": "Print/Design Services",
+   "Type": "Local services",
    "Address": "2186 Rheem Drive Suite B",
    "Status": "Open",
    "Notes": "Limited hours- Send your order/artwork files we will print and deliver (without 5 miles).",
@@ -71,7 +71,7 @@ let data = [
  },
  {
    "Name": "Action 1 Property Management",
-   "Type": "Property Management Service",
+   "Type": "Real Estate",
    "Address": "PO BOX 12062",
    "Status": "Open",
    "Notes": "Available by phone or email during the Covid-19 shelter order. ",
@@ -101,7 +101,7 @@ let data = [
  },
  {
    "Name": "Richert Lumber & ACE Hardware ",
-   "Type": "Hardware, lumber, rock ",
+   "Type": "Retail",
    "Address": "5505 Sunol Blvd",
    "Status": "Open",
    "Notes": "8–5 everyday ",
@@ -131,7 +131,7 @@ let data = [
  },
  {
    "Name": "Nina Pomeroy Photography ",
-   "Type": "Photographer",
+   "Type": "Local services",
    "Address": "6701 Koll Center Parkway, Suite 250",
    "Status": "Open",
    "Notes": "By appointment ",
@@ -161,7 +161,7 @@ let data = [
  },
  {
    "Name": "Precision Auto Repair, Inc. ",
-   "Type": "Auto repair ",
+   "Type": "Autoshop",
    "Address": "164-A Wyoming Street",
    "Status": "Open",
    "Notes": "Monday - Friday 7:00 am - 5:00 pm",
@@ -211,7 +211,7 @@ let data = [
  },
  {
    "Name": "Ruby Hill Marriage and Family Counseling Center, Inc.",
-   "Type": "Counseling Center ",
+   "Type": "Therapy/Counseling",
    "Address": "4460 Black Avenue, Ste., G Pleasanton, CA 94566",
    "Status": "Open",
    "Notes": "We are offering Telehealth, Teleplay and due to being an essential service some limited in person 6’ distance appointments. Please Call for an appointment. ",
@@ -241,7 +241,7 @@ let data = [
  },
  {
    "Name": "Advanced Security",
-   "Type": "Security/Fire Alarm Service",
+   "Type": "Local services",
    "Address": "7060 Koll Center Parkway Pleasanton",
    "Status": "Open",
    "Notes": "Performing urgent & emergency service needs only",
@@ -251,7 +251,7 @@ let data = [
  },
  {
    "Name": "Hamlin Chiropractic",
-   "Type": "Chiropractic",
+   "Type": "Healthcare",
    "Address": "1439 Cedarwood Ln., Ste. C, Pleasanton, Ca 94566",
    "Status": "Open",
    "Notes": "M,W,F 8:30am-11am & 3pm-6pm",
@@ -271,7 +271,7 @@ let data = [
  },
  {
    "Name": "Savings Cleaners",
-   "Type": "Dry Cleaners",
+   "Type": "Local service",
    "Address": "Gateway on Bernal, 6762 Bernal Avenue, Suite 620, Plesanton, CA, 94566",
    "Status": "Open",
    "Notes": "Interim Hours: \nMon - Fri : 10am to 5pm\nSat : 10am - 4pm",
@@ -321,7 +321,7 @@ let data = [
  },
  {
    "Name": "Valley EyeCare Center",
-   "Type": "Private Ophthalmology practice",
+   "Type": "Healthcare",
    "Address": "5575 W. Las Positas Blvd., suite 240, Pleasanton",
    "Status": "Open",
    "Notes": "8:00am - 4:30pm M-F for urgent eye issues. We're not open for routine eye care. We're available so those with eye issues can avoid emergency rooms/urgent cares. We also have telemedicine so some individuals may not even need to come in order to be treated.",
@@ -341,7 +341,7 @@ let data = [
  },
  {
    "Name": "Pleasanton Optometry",
-   "Type": "Optometrist, Eye Exams, Glasses, Contacts",
+   "Type": "Healthcare",
    "Address": "1400 Santa Rita Road, Suite F",
    "Status": "Open",
    "Notes": "Limited hours:  9-12 M-Th, Eye Emergencies, pickup/ordering glasses, contact lenses",
@@ -371,7 +371,7 @@ let data = [
  },
  {
    "Name": "Valley Plumbing Home Center, Inc.",
-   "Type": "Retail/Plumbing Services",
+   "Type": "Local services",
    "Address": "272 Rose Ave",
    "Status": "Open",
    "Notes": "Showroom is open 9 to 5 with curbside pick or one on one help in store and 24/7 For emergency Plumbing Service & Repair",
@@ -411,17 +411,17 @@ let data = [
  },
  {
    "Name": "Boisset Collection of Wine~Elizabeth J. Regan",
-   "Type": "Wine Sales from Our Collection of Wineries: Buena Vista Winery, Raymond Vineyards, DeLoach Winery, JCB, Lyeth and Access to Some of Our Wineries in France! ",
+   "Type": "Retail",
    "Address": "Pleasanton, CA",
    "Status": "Open",
-   "Notes": "Hi, Order Wine Here: my.boissetcollection.com/elizabethregan and it Ships Directly to Your Home. Current Promotion: Order 6 or more Bottles and Shipping is Included! Cheers! Elizabeth ; o}",
+   "Notes": "Hi, Order Wine Here: my.boissetcollection.com/elizabethregan and it Ships Directly to Your Home. Current Promotion: Order 6 or more Bottles and Shipping is Included! Cheers! Elizabeth. Sales from Our Collection of Wineries: Buena Vista Winery, Raymond Vineyards, DeLoach Winery, JCB, Lyeth and Access to Some of Our Wineries in France!",
    "Phone": "925-963-6924",
    "Website": "my.boissetcollection.com/elizabethregan",
    "Support": "Refer Family & Friends"
  },
  {
    "Name": "Twirly Girls Pole Fitness",
-   "Type": "Dance/Fitness",
+   "Type": "Local services",
    "Address": "288 Spring Street",
    "Status": "Closed until further notice",
    "Notes": "",
@@ -451,7 +451,7 @@ let data = [
  },
  {
    "Name": "Heritage Valley Mortgage, Inc",
-   "Type": "Real Estate Mortgage Loans",
+   "Type": "Real Estate",
    "Address": "5700 Stoneridge Mall Road #225 Pleasanton, CA 94588",
    "Status": "Open",
    "Notes": "By phone and email currently",
@@ -461,7 +461,7 @@ let data = [
  },
  {
    "Name": "Craig Property Management",
-   "Type": "Rental Property Management",
+   "Type": "Real Estate",
    "Address": "5700 Stoneridge Mall Road #225 Pleasanton, CA  94588",
    "Status": "Open",
    "Notes": "Available by phone and email or our website",
@@ -471,7 +471,7 @@ let data = [
  },
  {
    "Name": "James L Moog LMFT MAC BCETS",
-   "Type": "Individual-Couple-Family Therapy",
+   "Type": "Counseling/Therapy",
    "Address": "1439 Cedarwood Lane Suite B",
    "Status": "Open",
    "Notes": "Phone and Videoconferencing available 24/7 during this crises time",
@@ -491,7 +491,7 @@ let data = [
  },
  {
    "Name": "Alameda County Fairgrounds",
-   "Type": "Fairgrounds",
+   "Type": "Local services",
    "Address": "4501 Pleasanton Avenue",
    "Status": "Closed until further notice",
    "Notes": "",
@@ -501,7 +501,7 @@ let data = [
  },
  {
    "Name": "Margaret Petersen MFT",
-   "Type": "Couples Counseling and psychotherapy",
+   "Type": "Counseling/Therapy",
    "Address": "Online vis a HIPPA secure site",
    "Status": "Open",
    "Notes": "Monday-Friday with limited open times available",
@@ -531,7 +531,7 @@ let data = [
  },
  {
    "Name": "Congregation Beth Emek",
-   "Type": "Synagogue",
+   "Type": "Local services",
    "Address": "3400 Nevada Court",
    "Status": "Closed until further notice",
    "Notes": "Although the building is closed, our worship services and many of our programs are continuing online. Visit our website for details on how to access our live streamed services. ",
@@ -541,7 +541,7 @@ let data = [
  },
  {
    "Name": "Alliance Home Health Care",
-   "Type": "Home Health and Personal Care Services",
+   "Type": "Healthcare",
    "Address": "5976 W. Las Positas Blvd STE 118",
    "Status": "Open",
    "Notes": "Caring for elderly clients at home has never been this critical. All our clinicians are provided personal protective equipment. We are ready and providing care every possible to keep them safe at home.",
@@ -551,27 +551,27 @@ let data = [
  },
  {
    "Name": "Santa Rita Shell / Cox Family Stores",
-   "Type": "Gasoline, Diesel, Food Store, and Car Wash",
+   "Type": "Local services",
    "Address": "6750 Santa Rita Road, Pleasanton",
    "Status": "Open",
-   "Notes": "Ope 24 Hours",
+   "Notes": "Ope 24 Hours. Gasoline, Diesel, Food Store, and Car Wash",
    "Phone": "925-460-8061",
    "Website": "Coxfamilystores.com",
    "Support": ""
  },
  {
    "Name": "Hopyard Shell / Cox Family Stores",
-   "Type": "Gasoline, Diesel, Food Store, and Car Wash",
+   "Type": "Local services",
    "Address": "5251 Hopyard Road, Pleasanton",
    "Status": "Open",
-   "Notes": "Open 24 Hours",
+   "Notes": "Open 24 Hours. Gasoline, Diesel, Food Store, and Car Wash",
    "Phone": "925-463-0980",
    "Website": "Coxfamilystores.com",
    "Support": ""
  },
  {
    "Name": "California Collision ",
-   "Type": "Auto Body repair, Auto Body and Paint",
+   "Type": "Autoshop",
    "Address": "57 California ave ste C",
    "Status": "Open",
    "Notes": "Free mobile estimates, Free pick up and delivery of vehicle repairs ",
@@ -601,7 +601,7 @@ let data = [
  },
  {
    "Name": "All About Dental Service Inc.",
-   "Type": "Dental supplier",
+   "Type": "Healthcare",
    "Address": "3233 Monmouth Ct.",
    "Status": "Closed until further notice",
    "Notes": "",
@@ -611,7 +611,7 @@ let data = [
  },
  {
    "Name": "Janice Maurer, LMFT",
-   "Type": "Licensed Marriage & Family Therapist",
+   "Type": "Counseling/Therapy",
    "Address": "4456 Black Avenue, #200, Pleasanton ",
    "Status": "Open",
    "Notes": "Providing Telehealth & Online Services",
@@ -631,7 +631,7 @@ let data = [
  },
  {
    "Name": "VIP Cleaners",
-   "Type": "Dry cleaners",
+   "Type": "Local services",
    "Address": "1809 Santa Rita Rd. #F. Pleasanton, CA 94566",
    "Status": "Open",
    "Notes": "Mon-fri 10:30am-5pm. Sat 9am-4pm",
@@ -641,7 +641,7 @@ let data = [
  },
  {
    "Name": "Solid Systems Inc",
-   "Type": "Engineering & Manufacturing",
+   "Type": "Local services",
    "Address": "3428 Windsor Court, Pleasanton, CA 94588",
    "Status": "Open",
    "Notes": "Our MFG site is open by appointment only. 3399 W Warren Ave, Fremont CA 94538",
@@ -661,7 +661,7 @@ let data = [
  },
  {
    "Name": "B&S Hacienda Auto Body",
-   "Type": "Automobile Collision Repair",
+   "Type": "Autoshop",
    "Address": "3687 Old Santa Rita Road #27",
    "Status": "Open",
    "Notes": "Hours M-F 8:00 to 5:00, complementary pick-up and delivery, towing available",
@@ -671,7 +671,7 @@ let data = [
  },
  {
    "Name": "Hired Hands Homecare",
-   "Type": "Homecare for Elderly and Disabled",
+   "Type": "Healthcare",
    "Address": "240 Spring Street, Suite B",
    "Status": "Open",
    "Notes": "Please call 925-621-7650 or email Erin@hiredhandshomecare.com for any needs.  We are happy to help!",
@@ -681,7 +681,7 @@ let data = [
  },
  {
    "Name": "Pampered Chef",
-   "Type": "Kitchen tools retail and cooking classes",
+   "Type": "Retail",
    "Address": "3347 Prairie Dr., Pleasanton - online business only at this time",
    "Status": "Open",
    "Notes": "Order online for delivery",
@@ -691,7 +691,7 @@ let data = [
  },
  {
    "Name": "Great Western Transportation",
-   "Type": "FREIGHT TRANSPORTATION",
+   "Type": "Local services",
    "Address": "5000 PLEASANTON AVE, #145",
    "Status": "Open",
    "Notes": "MON THRU FRI  7:00 AM TO 5:00 PM",
@@ -721,30 +721,30 @@ let data = [
  },
  {
    "Name": "A Good Lender",
-   "Type": "Mortgage Lender",
+   "Type": "Local services",
    "Address": "3015 Hopyard Rd Suite Q, Pleasanton 94566",
    "Status": "Open",
-   "Notes": "Our business is open, but we are working remotely.  Please contact us at (510) 589-4096 ",
+   "Notes": "Mortgage Lender. Our business is open, but we are working remotely.  Please contact us at (510) 589-4096 ",
    "Phone": "510-589-4096",
    "Website": "agoodlender.com",
    "Support": ""
  },
  {
    "Name": "Superfly Wheels",
-   "Type": "Bike Shop",
+   "Type": "Local services",
    "Address": "537 Main St.  Pleasanton, CA 94566",
    "Status": "Open",
-   "Notes": "By appt. only via e-mail:  rollon@superflywheels.com",
+   "Notes": "Bike shop. By appt. only via e-mail:  rollon@superflywheels.com",
    "Phone": "925.248.2453",
    "Website": "www.superflywheels.com",
    "Support": "Use discount code - Downtownlove - when ordering from the website."
  },
  {
    "Name": "Mission Peak Orthopaedics ",
-   "Type": "Medical office specializing in Orthopaedic Surgery, Podiatry, and Physical Medicine and Rehabilitation",
+   "Type": "Healthcare",
    "Address": "5924 Stoneridge Drive, Suite 200, Pleasanton, CA 94588",
    "Status": "Open",
-   "Notes": "Open from 8:30 am -1 pm Monday-Friday\nTelehealth appointments (telephone and video consultations) available ",
+   "Notes": "Open from 8:30 am -1 pm Monday-Friday\nTelehealth appointments (telephone and video consultations) available. Medical office specializing in Orthopaedic Surgery, Podiatry, and Physical Medicine and Rehabilitation ",
    "Phone": "5107973933",
    "Website": "Www.mportho.com",
    "Support": ""
@@ -771,7 +771,7 @@ let data = [
  },
  {
    "Name": "The Rose Hotel",
-   "Type": "hotel",
+   "Type": "Local services",
    "Address": "807 Main Street, Pleasanton, Calif.",
    "Status": "Open",
    "Notes": "Open 24/7 with special rates for healthcare workers and active National Guard members",
@@ -781,10 +781,10 @@ let data = [
  },
  {
    "Name": "Proforma J.C.L. Print Associates",
-   "Type": "Supplier of Printing, Imprinted Promotional Products, and Logo Apparel",
+   "Type": "Local services",
    "Address": "555 Peters Ave. #260A",
    "Status": "Open",
-   "Notes": "Open for virtual business.  With client supplied art files we can take care of your printing\nand marketing product needs.  No need to meet face to face.  Can do all via email and \ndeliver via common carrier.",
+   "Notes": "Supplier of Printing, Imprinted Promotional Products, and Logo Apparel. Open for virtual business.  With client supplied art files we can take care of your printing\nand marketing product needs.  No need to meet face to face.  Can do all via email and \ndeliver via common carrier.",
    "Phone": "19252090545",
    "Website": "www.proforma.com/jclprint",
    "Support": "Give us a try.  Business and referrals much appreciated."
@@ -801,10 +801,10 @@ let data = [
  },
  {
    "Name": "Valley Children’s Museum",
-   "Type": "non-profit; children’s museum; children’s entertainment",
+   "Type": "Local services",
    "Address": "P.O. Box 2102 Dublin, CA 94568",
    "Status": "Closed until further notice",
-   "Notes": "Visit our online weekly program for children- fun & self led!",
+   "Notes": "Visit our online weekly program for children- fun & self led! We're a non-profit, children’s museum.",
    "Phone": "9257862833",
    "Website": "https://www.valleychildrensmuseum.org/weekly-steam-programming-for-parent",
    "Support": "Please support us: https://www.valleychildrensmuseum.org/donate"
