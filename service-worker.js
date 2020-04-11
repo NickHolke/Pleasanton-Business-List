@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Pleasanton-Business-List/precache-manifest.1c89c3afe0fe834f2d8d4145501221a7.js"
+  "/Pleasanton-Business-List/precache-manifest.d3d4a6102a317bd60d58cfc452116e44.js"
 );
 
 self.addEventListener('message', (event) => {
