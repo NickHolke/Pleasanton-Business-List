@@ -1,16 +1,10 @@
-import React, {useState} from 'react';
+import React from 'react';
 
-const Search = ({setSearchTerm}) => {
-  const changeHandler = (e) => {
-    setSearchTerm(e.target.value);
-  }
-
-  return (
+const Search = ({setSearchTerm}) => (
     <input 
       placeholder="Search by name here" 
-      onChange={changeHandler} 
+      onChange={(e)=> setSearchTerm(e.target.value)} 
     />
-  )
-}
+)
 
 export default Search;
