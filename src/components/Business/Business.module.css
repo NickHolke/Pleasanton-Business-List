@@ -67,10 +67,12 @@ h2 {
   cursor: pointer;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
-  transform: translateZ(0);
 }
 
 .minus {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
   height: 28px;
   width: 28px;
   cursor: pointer;
