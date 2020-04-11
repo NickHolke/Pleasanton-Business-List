@@ -38,9 +38,8 @@ const Business = ({info}) => {
       <div className={back}>
           <p><span className={bold}>Notes:</span> {info.Notes}</p>
           <p><span className={bold}>How else can we help?</span> {info.Support}</p>
-          <div className={minusWrapper}>
             <img onClick={clickHandler} className={minus} src={minusIcon} alt="less-info"/>
-          </div>
+          
       </div>
     </div>
   )
