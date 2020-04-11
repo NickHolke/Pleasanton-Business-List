@@ -1,16 +1,21 @@
-import React from 'react';
-import { front, title, icon, row, plus, card, back} from './Business.module.css';
+import React, { useState } from 'react';
+import { front, title, icon, row, plus, card, back, flip, bold, minus, hide, show} from './Business.module.css';
 import linkIcon from './linkIcon.svg';
 import addressIcon from './address.svg';
 import phoneIcon from './phone.svg';
 import plusIcon from './more.svg';
+import classNames from 'classnames';
+import minusIcon from './minus.svg';
 
 const Business = ({info}) => {
+  const [onFront, setOnFront] = useState(true);
 
+  const clickHandler = () => {
+    setOnFront(!onFront);
+  }
 
-  
   return (
-    <div className={card}>
+    <div className={classNames(card, {[flip]: !onFront})}>
       <div className={front}>
         <h1 className={title}>{info.Name}</h1>
         <h2>{info.Status}</h2>
@@ -28,10 +33,12 @@ const Business = ({info}) => {
           <img className={icon} src={linkIcon} alt="link"/>
           <a href={info.Website}>website</a>
         </div>
-        <img className={plus} src={plusIcon} alt="more-info"/>
+          <img onClick={clickHandler} className={classNames(plus, {[hide]: !onFront})} src={plusIcon} alt="more-info"/>
+          <img onClick={clickHandler} className={classNames(minus, {[show]: !onFront})} src={minusIcon} alt="less-info"/>
       </div>
       <div className={back}>
-
+        <p><span className={bold}>Notes:</span> {info.Notes}</p>
+        <p><span className={bold}>How else can we help?:</span> {info.Support}</p>
       </div>
     </div>
   )
