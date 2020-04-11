@@ -1,11 +1,16 @@
-.wrapper {
+.card {
+  transform-style: preserve-3d;
+  width: 400px;
+  position: relative;
+}
+
+.front {
   background: #d9dfe9;
   border: 8px solid white;
   padding: 10px;
   margin: 10px;
-  width: 400px;
   font-size: 22px;
-  position: relative;
+  
 }
 
 h2 {
