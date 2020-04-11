@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
-import {data} from './Pleasanton_Business_List';
+import { data, types, statusOptions } from './Pleasanton_Business_List';
 import Business from '../Business/Business';
 import Search from '../Search/Search';
-import TypeDropdown from '../TypeDropdown/TypeDropdown';
-import {wrapper} from './App.module.css';
+import Dropdown from '../Dropdown/Dropdown';
+import { wrapper } from './App.module.css';
 
 function App() {
   const [searchTerm, setSearchTerm] = useState('');
   const [type, setType] = useState('All');
+  const [status, setStatus] = useState('All');
 
   const searchChecker = (searchTerm, name) => {
     searchTerm = searchTerm.toLowerCase();
@@ -20,13 +21,19 @@ function App() {
     return selected === type;
   }
 
+  const statusChecker = (selected, status) => {
+    if (selected === 'All') return true;
+    return status.includes(selected);
+  }
+
   return (
     <>
       <Search setSearchTerm={setSearchTerm}/>
-      <TypeDropdown setType={setType} />
+      <Dropdown options={types} setType={setType} />
+      <Dropdown options={statusOptions} setType={setStatus} />
       <div className={wrapper}>
       {data.map((info) => {
-        if (searchChecker(searchTerm, info.Name) && typeChecker(type, info.Type)) {
+        if (searchChecker(searchTerm, info.Name) && typeChecker(type, info.Type) && statusChecker(status, info.Status)) {
           return <Business info={info}/>
         } 
       })}

@@ -811,8 +811,13 @@ let data = [
  }
 ]
 
+const types = ['All', 'Autoshop', 'Counseling/Therapy', 'Healthcare', 'Local services', 'Real Estate', 'Restaurant', 'Retail', 'Veteranarian'];
+const statusOptions = ['All', 'Open', 'Closed']; 
+
 data.sort((a,b) => a.Name.charCodeAt(0) - b.Name.charCodeAt(0))
 
 export  {
   data,
+  types,
+  statusOptions
 }
