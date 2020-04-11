@@ -33,8 +33,11 @@ time, mark, audio, video {
   box-sizing: border-box;
 }
 
-.wrapper {
+body {
   background: #e5dddd;
+}
+
+.wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

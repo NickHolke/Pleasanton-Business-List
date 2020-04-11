@@ -271,7 +271,7 @@ let data = [
  },
  {
    "Name": "Savings Cleaners",
-   "Type": "Dry Clenaers",
+   "Type": "Dry Cleaners",
    "Address": "Gateway on Bernal, 6762 Bernal Avenue, Suite 620, Plesanton, CA, 94566",
    "Status": "Open",
    "Notes": "Interim Hours: \nMon - Fri : 10am to 5pm\nSat : 10am - 4pm",
@@ -551,7 +551,7 @@ let data = [
  },
  {
    "Name": "Santa Rita Shell / Cox Family Stores",
-   "Type": "Gasoline, Diesel, Food Store, and Car Wash ",
+   "Type": "Gasoline, Diesel, Food Store, and Car Wash",
    "Address": "6750 Santa Rita Road, Pleasanton",
    "Status": "Open",
    "Notes": "Ope 24 Hours",
@@ -561,7 +561,7 @@ let data = [
  },
  {
    "Name": "Hopyard Shell / Cox Family Stores",
-   "Type": "Gasoline, Diesel, Food Store, and Car Wash ",
+   "Type": "Gasoline, Diesel, Food Store, and Car Wash",
    "Address": "5251 Hopyard Road, Pleasanton",
    "Status": "Open",
    "Notes": "Open 24 Hours",
