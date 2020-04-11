@@ -18,6 +18,7 @@
   font-size: 22px;
   height: 100%;
   backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
 }
 .back {
   position: absolute;
@@ -27,11 +28,12 @@
   bottom: 0;
   height: 100%;
   width: 100%;
-  backface-visibility: hidden;
   background: white;
   transform: rotateX(.5turn);
   padding: 10px;
   line-height: 1.1;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
 }
 
 h2 {
@@ -56,18 +58,22 @@ h2 {
   margin-top: 10px;
 }
 
-.plus, .minus {
+.plus {
   position: absolute;
   height: 28px;
   width: 28px;
-  cursor: pointer;
-  transition: all 400ms ease;
-}
-
-.plus {
   right: 10px;
   bottom: 10px;
-  
+  cursor: pointer;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  transform: translateZ(0);
+}
+
+.minus {
+  height: 28px;
+  width: 28px;
+  cursor: pointer;
 }
 
 .plusWrapper {
@@ -77,33 +83,12 @@ h2 {
   background: #d9dfe9;
 }
 
-/* .plus {
-  height: 28px;
-  width: 28px;
-}
-
-.minus {
-  top: 10px;
-  right: 10px;
-  opacity: 0;
-} */
-
-.show {
-  opacity: 1;
-}
-
-.hide {
-  opacity: 0;
-}
-
 .bold {
   font-size: 18px;
   font-weight: bold;
 }
 
-.buttonContainer {
-  height: 100%;
+.minusWrapper {
   text-align: right;
 }
-
 

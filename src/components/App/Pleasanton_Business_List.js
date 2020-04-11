@@ -324,7 +324,7 @@ let data = [
    "Type": "Private Ophthalmology practice",
    "Address": "5575 W. Las Positas Blvd., suite 240, Pleasanton",
    "Status": "Open",
-   "Notes": "Open 8:00am - 4:30pm M-F for urgent eye issues. We are not open for routine eye care. We are available so individuals with eye issues can avoid emergency rooms/urgent cares as well as avoid permanent vision problems. We also have telemedicine so some individuals may not even need to come in order to be treated.",
+   "Notes": "8:00am - 4:30pm M-F for urgent eye issues. We're not open for routine eye care. We're available so those with eye issues can avoid emergency rooms/urgent cares. We also have telemedicine so some individuals may not even need to come in order to be treated.",
    "Phone": "925-460-5000",
    "Website": "www.valleyeyecarecenter.com",
    "Support": "We are a privately owned small Ophthalmology practice which has been serving the Tri-Valley since 1975. We are happy to be able to continue to do so during this time. Please share this info with your friends and loved ones."
