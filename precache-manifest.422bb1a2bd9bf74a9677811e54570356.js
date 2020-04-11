@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0d1ad5e9e4a37710aa2b40f783c3a75c",
+    "revision": "610ef7db17264749e26f95b61dc82d3b",
     "url": "/Pleasanton-Business-List/index.html"
   },
   {
-    "revision": "d5c3b02e508447f13256",
-    "url": "/Pleasanton-Business-List/static/css/main.8a52ecb7.chunk.css"
+    "revision": "2f27af895b24ad146fd3",
+    "url": "/Pleasanton-Business-List/static/css/main.22aa06dc.chunk.css"
   },
   {
-    "revision": "e92e47f342d0a5b599c0",
-    "url": "/Pleasanton-Business-List/static/js/2.e99cc0bf.chunk.js"
+    "revision": "f0028577a1be4edf1f2a",
+    "url": "/Pleasanton-Business-List/static/js/2.e87c461e.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/Pleasanton-Business-List/static/js/2.e99cc0bf.chunk.js.LICENSE.txt"
+    "url": "/Pleasanton-Business-List/static/js/2.e87c461e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d5c3b02e508447f13256",
-    "url": "/Pleasanton-Business-List/static/js/main.e54570f4.chunk.js"
+    "revision": "2f27af895b24ad146fd3",
+    "url": "/Pleasanton-Business-List/static/js/main.ad25a0b2.chunk.js"
   },
   {
     "revision": "9b3e01f08c399e60afb7",
