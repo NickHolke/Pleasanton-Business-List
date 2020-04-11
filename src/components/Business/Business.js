@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { front, title, icon, row, plus, card, back, flip, bold, minus, hide, show, buttonContainer} from './Business.module.css';
+import { front, title, icon, row, plus, card, back, flip, bold, minus, hide, show, buttonContainer,} from './Business.module.css';
 import linkIcon from './linkIcon.svg';
 import addressIcon from './address.svg';
 import phoneIcon from './phone.svg';
@@ -35,13 +35,13 @@ const Business = ({info}) => {
         </div>
           {/* <img onClick={clickHandler} className={classNames(plus, {[hide]: !onFront})} src={plusIcon} alt="more-info"/>
           <img onClick={clickHandler} className={classNames(minus, {[show]: !onFront})} src={minusIcon} alt="less-info"/> */}
-        <div className={buttonContainer}>
-          <img onClick={clickHandler} className={plus} src={plusIcon} alt="more-info"/>
-        </div>  
+    
+            <img onClick={clickHandler} className={plus} src={plusIcon} alt="more-info"/>
+          
       </div>
       <div className={back}>
         <p><span className={bold}>Notes:</span> {info.Notes}</p>
-        <p><span className={bold}>How else can we help?:</span> {info.Support}</p>
+        <p><span className={bold}>How else can we help?</span> {info.Support}</p>
       </div>
     </div>
   )
