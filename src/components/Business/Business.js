@@ -10,7 +10,8 @@ import minusIcon from './minus.svg';
 const Business = ({info}) => {
   const [onFront, setOnFront] = useState(true);
 
-  const clickHandler = () => {
+  const clickHandler = (e) => {
+    e.preventDefault();
     setOnFront(!onFront);
   }
 
@@ -39,7 +40,7 @@ const Business = ({info}) => {
           <p><span className={bold}>Notes:</span> {info.Notes}</p>
           <p><span className={bold}>How else can we help?</span> {info.Support}</p>
           <div className={minusWrapper}>
-            <img onClick={clickHandler} className={minus} src={minusIcon} alt="less-info"/>
+            <img onClick={(e)=>clickHandler(e)} className={minus} src={minusIcon} alt="less-info"/>
           </div>
       </div>
     </div>
