@@ -2,7 +2,7 @@
   width: 400px;
   position: relative;
   margin: 10px;
-  transition: transform 1s ease;
+  transition: box-shadow 300ms ease-in-out, transform 1s ease;
   transform-style: preserve-3d;
   box-shadow: 1px 1px 8px grey;
 }
@@ -75,8 +75,11 @@ h2 {
 }
 
 .minus {
+  position: absolute;
   height: 28px;
   width: 28px;
+  right: 10px;
+  bottom: 10px;
   cursor: pointer;
 }
 
