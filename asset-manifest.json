@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Pleasanton-Business-List/static/css/main.ebf61af2.chunk.css",
+    "main.css": "/Pleasanton-Business-List/static/css/main.3dcfd434.chunk.css",
     "main.js": "/Pleasanton-Business-List/static/js/main.fb346b23.chunk.js",
     "main.js.map": "/Pleasanton-Business-List/static/js/main.fb346b23.chunk.js.map",
     "runtime-main.js": "/Pleasanton-Business-List/static/js/runtime-main.8796299e.js",
@@ -8,9 +8,9 @@
     "static/js/2.8806e4cc.chunk.js": "/Pleasanton-Business-List/static/js/2.8806e4cc.chunk.js",
     "static/js/2.8806e4cc.chunk.js.map": "/Pleasanton-Business-List/static/js/2.8806e4cc.chunk.js.map",
     "index.html": "/Pleasanton-Business-List/index.html",
-    "precache-manifest.411caa7b67435d3914bd44050aee2706.js": "/Pleasanton-Business-List/precache-manifest.411caa7b67435d3914bd44050aee2706.js",
+    "precache-manifest.47eed0054ca295c2f591a5252c45e6fe.js": "/Pleasanton-Business-List/precache-manifest.47eed0054ca295c2f591a5252c45e6fe.js",
     "service-worker.js": "/Pleasanton-Business-List/service-worker.js",
-    "static/css/main.ebf61af2.chunk.css.map": "/Pleasanton-Business-List/static/css/main.ebf61af2.chunk.css.map",
+    "static/css/main.3dcfd434.chunk.css.map": "/Pleasanton-Business-List/static/css/main.3dcfd434.chunk.css.map",
     "static/js/2.8806e4cc.chunk.js.LICENSE.txt": "/Pleasanton-Business-List/static/js/2.8806e4cc.chunk.js.LICENSE.txt",
     "static/media/address.svg": "/Pleasanton-Business-List/static/media/address.95945762.svg",
     "static/media/linkIcon.svg": "/Pleasanton-Business-List/static/media/linkIcon.de481fcb.svg",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.8796299e.js",
     "static/js/2.8806e4cc.chunk.js",
-    "static/css/main.ebf61af2.chunk.css",
+    "static/css/main.3dcfd434.chunk.css",
     "static/js/main.fb346b23.chunk.js"
   ]
 }
