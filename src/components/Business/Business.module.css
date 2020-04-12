@@ -4,6 +4,11 @@
   margin: 10px;
   transition: transform 1s ease;
   transform-style: preserve-3d;
+  box-shadow: 1px 1px 8px grey;
+}
+
+.card:hover {
+  box-shadow: 2px 2px 9px grey;
 }
 
 .flip {

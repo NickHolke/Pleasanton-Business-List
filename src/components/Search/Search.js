@@ -3,7 +3,7 @@ import { wrapper } from './Search.module.css';
 
 const Search = ({setSearchTerm}) => (
     <input className={wrapper}
-      placeholder="Search by name here" 
+      placeholder="Search by name" 
       onChange={(e)=> setSearchTerm(e.target.value)} 
     />
 )
