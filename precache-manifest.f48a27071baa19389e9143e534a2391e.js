@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "78db651bc7d00a80efa0a85698399dd9",
+    "revision": "c4685df56df2ad503827d1c2a5b3c2c1",
     "url": "/Pleasanton-Business-List/index.html"
   },
   {
-    "revision": "9f58c5d335e5cece7047",
-    "url": "/Pleasanton-Business-List/static/css/main.eb5d041b.chunk.css"
+    "revision": "603c55f17b88ffd3860b",
+    "url": "/Pleasanton-Business-List/static/css/main.ee6c5791.chunk.css"
   },
   {
     "revision": "c61876de8a23e0bed918",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Pleasanton-Business-List/static/js/2.8806e4cc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9f58c5d335e5cece7047",
+    "revision": "603c55f17b88ffd3860b",
     "url": "/Pleasanton-Business-List/static/js/main.78af1409.chunk.js"
   },
   {
